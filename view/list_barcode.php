@@ -327,6 +327,7 @@
                                                                             <td class = "text-right"> ' . $rows['book_languge'] . ' </td>
                                                                             <td> 
                                                                                 <input type="text" class="form-control cfont bold" value="'.$rows['book_quantity'].'" name="amount[]"  >
+                                                                                <input type="hidden" name="row_amount[]" value="'.base64_encode($rows['id']).'" > 
                                                                             </td>             
                                                                             <td class="center" style="padding-right:10px !important;">
                                                                                 <input type="checkbox" class="is_print orange" value="'.base64_encode($rows['id']).'" name="chackbox_select[]"> 

@@ -1,7 +1,20 @@
 
   <?php 
-  		require_once("_config.php");
+	require_once("_config.php");
        
+
+		function get_amount($incode_key){
+			$array_key = 0;
+			foreach ($_POST['row_amount'] as $key => $value) {
+				if($value == $incode_key){
+					$array_key = $key;
+					break;
+				}
+			}
+			return $_POST['amount'][$array_key];
+		};
+
+
 		$book_data = $db->prepare('SELECT * FROM books WHERE `is_deleted` =:is_deleted ORDER BY id DESC ');
         $book_data->execute(['is_deleted' => 0]);
  
@@ -17,7 +30,7 @@
 				$name = selectOne('books',base64_decode($row))['book_name'];
 				$temp['name'] = $name;
 				$temp['id']   = $row;
-				$temp['amount'] = $_POST['amount'][$key];
+				$temp['amount'] = get_amount($row);
 				array_push($output , $temp);
 			}
 			
