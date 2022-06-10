@@ -431,7 +431,7 @@ require_once("_header.php");
                                         <div class="panel-heading">
                                             <h4 class="panel-title">
                                                  <a class="accordion-toggle bfont" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                                    <i class="fa fa-chevron-down"></i> نمایش ریکارد های موجود [ <span style="color: red;"><?php echo $record_table['number']; ?></span> ] <?php echo $record_table['number']; ?> از مجموع ۶۱
+                                                    <i class="fa fa-chevron-down"></i> نمایش ریکارد های موجود [ <span style="color: red;"><?php echo @$record_table['number']; ?></span> ] <?php echo @$record_table['number']; ?> از مجموع ۶۱
                                                 </a>   
                                             </h4>
                                         </div>
