@@ -200,7 +200,7 @@ require_once("_header.php");
                                                             تعداد  <span class="required">*</span>
                                                         </label>
                                                         <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
-                                                            <input type="text" autocomplete="off" id="book_quantity" name="book_quantity" required placeholder="مثال : 2 جلد" class="form-control tooltips" data-placement="top" title="این فیلد لازمی است" data-rel="tooltip" data-original-title="نام کتگوری را وارد کنید">
+                                                            <input type="number" autocomplete="off" id="book_quantity" name="book_quantity" required placeholder="مثال : 2 " class="form-control tooltips" data-placement="top" title="این فیلد لازمی است" data-rel="tooltip" data-original-title="لطفا عدد وارد کنید">
                                                         </div>
                                                     </div>
                                                     <div class="form-group">
@@ -224,7 +224,7 @@ require_once("_header.php");
                                                             کتگوری
                                                         </label>
                                                         <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
-                                                            <select id="category_id"  name="category_id"  class="form-control tooltips select2" data-placement="top" title="" data-rel="tooltip" data-original-title="">
+                                                            <select id="category_id"  name="category_id"  required="required " class="form-control tooltips select2" data-placement="top" title="" data-rel="tooltip" data-original-title="">
                                                                 <option value="">انتخاب</option>
                                                                 <?php
                                                                 $categories = $db->prepare('SELECT * FROM categories WHERE `is_deleted` =:is_deleted');

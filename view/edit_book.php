@@ -121,7 +121,7 @@ require_once("_config.php");
                                           تعداد  <span class="required">*</span>
                                           </label>
                                           <div class="col-sm-12 col-md-12 col-lg-7 col-xs-12">
-                                             <input type="text" autocomplete="off" value="<?php echo $book_edit['book_quantity']; ?>" id="book_quantity" name="book_quantity" required placeholder="مثال : 2 جلد" class="form-control tooltips" data-placement="top" title="این فیلد لازمی است" data-rel="tooltip" data-original-title="نام کتگوری را وارد کنید">
+                                             <input type="number" autocomplete="off" value="<?php echo $book_edit['book_quantity']; ?>" id="book_quantity" name="book_quantity" required placeholder="مثال : 2 جلد" class="form-control tooltips" data-placement="top" title="این فیلد لازمی است" data-rel="tooltip" data-original-title="">
                                           </div>
                                        </div>
                                        <div class="form-group">
@@ -145,7 +145,7 @@ require_once("_config.php");
                                           کتگوری 
                                           </label>
                                           <div class="col-sm-12 col-md-12 col-lg-7 col-xs-12">
-                                             <select id="category_id"  name="category_id"  class="form-control tooltips select2" data-placement="top" title="" data-rel="tooltip" data-original-title="">
+                                             <select id="category_id"  name="category_id" required="required"  class="form-control tooltips select2" data-placement="top" title="" data-rel="tooltip" data-original-title="">
                                                <?php
                                                    $category = $db->prepare('SELECT * FROM `categories` WHERE `is_deleted` =:is_deleted');
                                                    $category->execute(['is_deleted' => 0]);
