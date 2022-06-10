@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'BTITRBD';
+    src: url('font/BTITRBD.eot');
+    src: url('font/BTITRBD.eot?#iefix') format('embedded-opentype'), url('font/BTITRBD.woff') format('woff'), url('font/BTITRBD.ttf') format('truetype'), url('font/BTITRBD.svg#BTITRBD') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BTITRBD';
+    src: url('font/BTITRBD.eot');
+    src: url('font/BTITRBD.eot?#iefix') format('embedded-opentype'), url('font/BTITRBD.woff') format('woff'), url('font/BTITRBD.ttf') format('truetype'), url('font/BTITRBD.svg#BTITRBD') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BTITRBD';
+    src: url('font/BTITRBD.eot');
+    src: url('font/BTITRBD.eot?#iefix') format('embedded-opentype'), url('font/BTITRBD.woff') format('woff'), url('font/BTITRBD.ttf') format('truetype'), url('font/BTITRBD.svg#BTITRBD') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('font/myriadproregular.eot');
+    src: url('font/myriadproregular.eot?#iefix') format('embedded-opentype'), url('font/myriadproregular.woff') format('woff'), url('font/myriadproregular.ttf') format('truetype'), url('font/myriadproregular.svg#myriadproregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bfont {
+    font-family: 'BTITRBD';
+}
+
+.btn {
+    font-family: 'BTITRBD';
+}
+
+.submit:focus {
+    outline: none !important;
+}
+
+.non-border {
+    border-radius: 0px !important;
+}
+
+.panel-heading {
+    border-radius: 0px !important;
+}
+
+.panel {
+    /*min-height:550px;*/
+}
+
+.gray {
+    color: #b1b1b1;
+}
+
+.btn {
+    border-radius: 0px !important;
+}
+
+.required {
+    color: red !important;
+    font-size: 12px;
+}
+
+.kv-fileinput-caption {
+    border-radius: 0px !important;
+}
+
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+    border-bottom-width: 0px !important;
+}
+
+.table thead tr th {
+    background: #036f3e;
+    color: white;
+    border: unset !important;
+}
+
+.table thead {
+    border: 1px solid #036f3e !important;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    padding: 3px !important;
+}
+
+.margin-top-1 {
+    margin-top: 1px;
+}
+
+.progress-bar-success {
+    background-color: #036f3e !important;
+}
+
+.ui-dialog-titlebar-close>i {
+    position: relative !important;
+    top: -3px !important;
+}
+
+.ui-dialog-titlebar-close {
+    background: #fdb039;
+    color: white;
+    border: 1px solid #fdb039;
+}
+
+.ui-dialog-titlebar {
+    background: #fdb039 !important;
+    border-radius: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.ui-dialog {
+    padding: 0px !important;
+    border-radius: 0px !important;
+    border: 1px solid #fdb039 !important;
+}
+
+.ui-widget-header {
+    border: unset !important;
+    background: #fdb039 !important;
+    padding: 5px !important;
+    color: white !important;
+}
+
+.form-content {
+    width: 100%;
+    padding: 5px;
+}
+
+.ui-dialog {
+    z-index: 999999 !important;
+}
+
+.ui-dialog-buttonset button {
+    background: #fdb039;
+    color: white;
+    border: 1px solid #fdb039;
+}
+
+.ui-dialog-titlebar-close:focus {
+    outline: none !important;
+}
+
+.ui-dialog-buttonset:focus {
+    outline: none !important;
+}
+
+.r-outline {
+    outline: none !important;
+}
+
+.tab-cen {
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+/* BEGIN Bold */
+@font-face {
+    font-family: 'BTITRBD-BOLD';
+    src: url('font/btitrbd.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* END Bold */
+/* BEGIN Regular */
+@font-face {
+    font-family: 'BTITRBD';
+    src: url('font/btraffic.ttf') format('truetype'),
+         url('font/btitrbd.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* END Regular */
+
+.bfont{
+     font-family: 'BTITRBD-BOLD';
+}
+
+.bcfont{
+     font-family: 'BTITRBD';
+}
+.fbtn{
+     font-family: 'BTITRBD-BOLD';
+}

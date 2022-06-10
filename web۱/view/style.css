@@ -1,0 +1,10 @@
+.active-1{
+	border-bottom: 3px solid #009b9b;
+	color: #009b9b
+}
+.gallery-cell{
+  width: 18%;
+  height: 400px;
+  margin-right: 0px	!important;
+}
+

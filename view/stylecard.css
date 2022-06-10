@@ -1,0 +1,62 @@
+.frontside {
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.card {
+    min-height: 200px;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+td {
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid lightgray;
+}
+
+table {
+    width: 100%;
+    padding: 5px;
+    background: #fff;
+}
+
+.width {
+    width: 130px;
+}
+
+.color {
+    background: #dec884;
+}
+
+@font-face {
+    font-family: "IRAN SANS BOLD";
+    src: url("../assets/font/IRAN SANS BOLD_1.TTF");
+    src: url("../assets/font/IRAN SANS LIGHT_0.TTF");
+    src: url("../assets/font/IRAN SANS MEDIUM_0.TTF");
+    src: url("../assets/font/IRAN SANS ULTRALIGHT_0.TTF");
+    src: url("../assets/font/IRAN SANS_0.TTF");
+}
+
+* {
+    font-family: 'IRAN SANS BOLD', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+}
+
+@media print {
+    #sh {
+        display: none;
+    }
+}
+
+td:not(.color) {
+    text-align: center;
+}
